@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+    - name: distinct_payment_type
+      description: "Distinct payment type"
+      columns:
+          - name: Payment_Type
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null

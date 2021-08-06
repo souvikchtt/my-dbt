@@ -1,0 +1,1 @@
+SELECT distinct Payment_Type FROM `black-portfolio-320512.test.sales`
